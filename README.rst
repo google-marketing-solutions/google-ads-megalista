@@ -1,11 +1,7 @@
-Google Ads API Client Library for Python
-========================================
+Google Ads API Client Library for Megalista
+===========================================
 
-This project hosts the Python client library for the Google Ads API.
-
-Build Status
-------------
-|build-status|
+This project hosts the Python client library for the Google Ads Megalista API.
 
 Requirements
 ------------
@@ -15,7 +11,7 @@ Installation
 ------------
 .. code-block::
 
-  pip install google-ads
+  pip install google-ads-megalista
 
 Features
 --------

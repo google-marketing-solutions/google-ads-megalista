@@ -6,7 +6,7 @@
 - Fix various issues in create_experiment example.
 
 * 17.0.0
-- Google Ads API v11_0 release.
+- Google Ads API v13_0 release.
 - Added example create_experiment.
 - Added example detect_and_apply_recommendations
 - Updated example add_smart_campaign

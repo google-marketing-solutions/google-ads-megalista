@@ -31,7 +31,7 @@ install_requires = [
     # Protobuf versions 3.18.* and 3.19.* are incompatible with this
     # library due to performance issues. See the following for more details:
     # https://github.com/protocolbuffers/protobuf/issues/9180
-    "protobuf >= 3.12.0, <= 3.20.0,!=3.18.*,!=3.19.*",
+    "protobuf >= 3.12.0, <= 3.20.3,!=3.18.*,!=3.19.*",
 ]
 
 with io.open("README.rst", "r", encoding="utf-8") as readme_file:
@@ -67,5 +67,4 @@ setup(
     ),
     namespace_packages=["google", "google.ads"],
     url="https://github.com/googleads/google-ads-python",
-    zip_safe=False,
 )
